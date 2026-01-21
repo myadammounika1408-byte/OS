@@ -21,7 +21,7 @@ int main()
     wt[i]=wt[i-1]+bt[i-1];
     tat[i]=wt[i]+bt[i];
     twt=twt+wt[i];
-    ttat=ttat+bt[i];
+    ttat=ttat+tat[i];
   }
   awt=(float) twt/n;
   atat=(float) ttat/n;
