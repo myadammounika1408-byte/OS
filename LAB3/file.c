@@ -15,7 +15,7 @@ int main()
  /*Read input from keyboard*/
  while((c=getchar())!='\n')
  {
-  strin[++i]=c;
+  strin[i++]=c;
  }
  strin[i]='\0';
  
